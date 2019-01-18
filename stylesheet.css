@@ -36,7 +36,7 @@
 
 .column h1 {
   font-family: "Merriweather", serif;
-  
+
   font-weight: 300;
   font-size:1.3875rem;
   margin-bottom:0px !important;
@@ -545,6 +545,29 @@ height: 0.1em;
   border:1px solid #bbb;
   margin: 2rem 0;
 
+}
+
+.wrap {
+    width: 265.2px;
+    height: 561px;
+    padding: 0;
+    overflow: hidden;
+}
+.frame {
+    width: 442px;
+    height: 965px;
+    border: 0;
+    -ms-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
 }
 
 .portfolio-iframe{
