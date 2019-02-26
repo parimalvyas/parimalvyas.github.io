@@ -791,12 +791,16 @@ and (min-width: 560px){
 
 @media only screen
 and (min-width: 700px){
-    .image-thumb{
+
+		.image-thumb{
       display: inline-block;
       width: 75%;
       margin-right: 3%;
       vertical-align: top;
   }
+
+	
+
 
   .post-info{
     display: inline-block;

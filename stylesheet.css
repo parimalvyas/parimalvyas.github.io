@@ -798,6 +798,20 @@ and (min-width: 700px){
       vertical-align: top;
   }
 
+	.image-thumb .customBadge{
+	position: absolute;
+	width: max-content;
+	left: 0;
+	bottom: 0;
+	background: #f1f1f1;
+	border-radius: 0 2% 0 0;
+	padding: 0.25rem .5rem;
+	font-size: 9px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+
   .post-info{
     display: inline-block;
     width: 75%;
