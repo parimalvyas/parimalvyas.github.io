@@ -1251,8 +1251,7 @@ h5{
 }
 
 .menu-horizontal .nameLogo {
-  font-family: "Expletus Sans", cursive;
-	font-size: 1.0rem;
+  background: url('images/logo.svg');
 }
 
 .menu-horizontal .activeLogo a{
