@@ -799,7 +799,7 @@ and (min-width: 700px){
       vertical-align: top;
   }
 
-	
+
 
 
   .post-info{
@@ -813,7 +813,7 @@ and (min-width: 700px){
     .col-2
     {
       display: inline-block;
-       width: 46.8%;
+       width: 46%;
       vertical-align: top;
       margin-bottom: 4rem;
     }
