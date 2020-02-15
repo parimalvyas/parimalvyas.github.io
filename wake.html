@@ -1,562 +1,931 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-	<head>
-		<meta charset="UTF-8">
-		<meta name="description" content="Parimal Vyas - Portfolio">
-		<meta name="keywords" content="parimal vyas; iupui; ux designer; interaction designer; product designer; user-centered design; wirefreame; visual design; ux internship; ux intern; ux co-op; 2019; 2020; parimal vyas">
-		<meta name="author" content="Parimal Vyas">
+<head>
+  <meta charset="utf-8" />
+  <title>Parimal Vyas - UX/Product Designer</title>
 
-		<title>WAKE | UX Design | UI Desgin | Product Design</title>
+  <!-- Meta Data -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="format-detection" content="address=no" />
+  <meta name="author" content="Parimal Vyas - UX/Product Designer" />
+  <meta name="description" content="Hi, I am Parimal Vyas, a user-first business-driven designer trying to make a difference with design. This is a showcase of my work as a portfolio" />
 
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129697225-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
+  <!-- Twitter data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@parimalvyas">
+  <meta name="twitter:title" content="Parimal Vyas - UX/Product Designer">
+  <meta name="twitter:description" content="Hi, I am Parimal Vyas, a user-first business-driven designer trying to make a difference with design. This is a showcase of my work as a portfolio">
+  <meta name="twitter:image" content="./assets/images/pvyas_meta.png">
 
-		  gtag('config', 'UA-129697225-1');
-		</script>
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="./assets/images/favicons/favicon.png" type="image/png">
 
-		<link href="https://fonts.googleapis.com/css?family=Expletus+Sans" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Open+Sans:300,400,600,700" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
-		<link rel="icon" href="images/favicon.png">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="./assets/styles/style.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/styles/style-light.css" />
+  <link rel="stylesheet" type="text/css" href="./assets/styles/side-nav.css" />
 
+</head>
 
-	</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader__wrap">
+      <img class="preloader__logo" src="./assets/images/logotype3.svg" alt="PARIMAL VYAS">
+      <div class="preloader__progress"><span></span></div>
+    </div>
+  </div>
 
-	<!-- ------------------------>
+  <!-- Scroll Indicator -->
+  <div class="scroll-line"></div>
 
-	<body id="wake">
+  <!-- Top -->
+  <nav class="navbar navbar-change navbar--white">
+    <div class="mr-auto">
+      <a class="logo-link magnetic" href="index.html">
+        <img class="logotype" src="./assets/images/logotype3.svg" alt="Parimal Vyas">
+      </a>
+    </div>
+    <div class="ml-sm-auto">
+      <button class="hamburger zoom-cursor" type="button">
+        <span class="hamburger__inner"></span>
+      </button>
 
-		<header class="main-menu animated fadeInDown">
-			<div class="content">
+      <ul class="nav">
+        <li class="nav__item"><a class="nav__link" href="about.html">About</a></li>
+        <li class="nav__item"><a class="nav__link" href="index.html#work">Work</a></li>
+        <li class="nav__item"><a class="nav__link" href="./assets/files/Resume_ParimalVyas_UX_ProductDesigner.pdf" target="_blank">Resume</a></li>
+      </ul>
+    </div>
+  </nav>
 
-				<div class="menu-float-left">
-					<div class="menu-horizontal">
-						<p class=" activeLogo"><a href="index.html">
+  <!-- Side Nav -->
 
-							 <img src="images/logo.svg">
+          <nav id="cd-vertical-nav" >
+              <ul>
+                  <li>
+                      <a href="#overview" data-number="1">
+                          <span class="cd-dot"></span>
+                          <span class="cd-label">Overview</span>
+                      </a>
+                  </li>
 
-						 </a></p>
-					</div>
+                  <li>
+                      <a href="#problem" data-number="2">
+                          <span class="cd-dot"></span>
+                          <span class="cd-label">Problem</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#goals" data-number="3">
+                          <span class="cd-dot"></span>
+                          <span class="cd-label">Goals</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#ideation" data-number="4">
+                          <span class="cd-dot"></span>
+                          <span class="cd-label">Ideation</span>
+                      </a>
+                  </li>
+
+                  <li>
+                      <a href="#wireframe" data-number="5">
+                          <span class="cd-dot"></span>
+                          <span class="cd-label">Wireframes</span>
+                      </a>
+                  </li>
+
+                  <li>
+                      <a href="#utest" data-number="6">
+                          <span class="cd-dot"></span>
+                          <span class="cd-label">User Testing</span>
+                      </a>
+                  </li>
+
+                  <li>
+                      <a href="#visual" data-number="7">
+                          <span class="cd-dot"></span>
+                          <span class="cd-label">Final Designs</span>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="#learning" data-number="8">
+                          <span class="cd-dot"></span>
+                          <span class="cd-label">Key Takeaways</span>
+                      </a>
+                  </li>
+              </ul>
+          </nav>
+
+  <!-- Side Nav -->
+
+  <!-- /Top -->
+
+  <main class="project-single js-scroll"><br /> <br /> <br />
+    <header class="header-post header-page" style="background:#f9f9f9; margin-top:0; "> <br /> <br /> <br />
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-12 js-scroll-show">
+            <h1 class="title title--h1 title--separation-center">WAKE</h1> <br />
+          </div>
+          <div class="col-12 col-lg-10 col-xl-8 js-scroll-show">
+
+            <p class="foreword"><b style="opacity:0.5;">CHALLENGE</b> Redesigning the waking up experience: a system that enables users to get a good night’s sleep and wake up refreshed.
+            </p>
+            <div class="post-details">At <strong>IDC, IIT Bombay</strong> / May 2016 (2 WEEKS)</div>
+          </div>
+        </div>
+        <br /> <br />
+      </div>
+      <!-- <div class="">
+			    <div class="reveal-box">
+			        <img class="cover" src="./assets/img/slider_image_07.jpg" alt="" />
+				    <span class=" "></span>
 				</div>
-				<div class="menu-float-right">
-					<div class="menu-horizontal">
-					<p><a href="bio.html">About</a></p>
-					<p><a href="files/Resume_ParimalVyas_UX_ProductDesigner.pdf" target="_blank">Resume</a></p>
-						<p><a href="mailto:hello@parimalvyas.me" target="_blank">Email</a></p>
-					</div>
-				</div>
-
-				<div class="progress-container">
-    				<div class="progress-bar" style="background-color: #c5645e;" id="myBar"></div>
-
-  				</div>
-
-			</div>
-		<script>
-				function myhref(web){
-      				window.location.href = web;}
-			</script>
-
-		</header>
-
-		<div class="post">
-			<div class="">
-				<div class="content">
-					<!-- <div class="text-width"><div class="thin_line"><span class="thick_line"></span></div></div> -->
-					<h1 class="text-width"><strong>WAKE</strong> - Redesigning the waking up experience </h1>
-					<p class="project-story text-width">Design a system that will give the person a good night’s sleep and help him/her wake up refreshed.</p>
-				</div>
-			</div>
-
-
-			<div class="content">
-			<!-- Summary Block ends -->
-
-				<div>
-					<div class="text-width proj-summary">
-						<div class="summary-block">
-							<p class="summary-head">The Project</p><p class="summary-block-content">Wake was a research led design project undertaken at the Monsoon Course in Human Computer Interaction at the <a href="http://www.idc.iitb.ac.in/">Industrial Design Centre(IDC)</a> at IIT Bombay, Powai in 2016.
-							</p>
-
-						</div>
-
-						<div class="summary-block">
-							<p class="summary-head">The Users</p><p class="summary-block-content">As a part of the research, 22 users from different age groups were interviewed to understand how the problem impacts the users.
-							</p>
-
-						</div>
-<!--
-
-						<div class="summary-block">
-							<p class="summary-head">Purpose of This Product</p><p class="summary-block-content">To better the waking up experience of people.
-
-							</p>
-
-						</div>
--->
-						<div class="summary-block">
-							<p class="summary-head">My Role</p><p class="summary-block-content">User reserach, 4 User interviews out of 22, Wireframing and User testing.
-							</p>
-
-						</div>
-
-						<div class="summary-block">
-							<p class="summary-head">Team</p><p class="summary-block-content">Team of six people</p>
-						</div>
-						<div class="summary-block">
-							<p class="summary-head">Duration</p>
-							<div class="summary-block-content">  2 weeks (June 2016)
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="text-width"><h2><span class="head-style">Exploring The Problem Space</span></h2></div>
-					<div class="text-width">
-						<h3>Understanding the context and impact of sleep.</h3>
-						<p>
-							During normal sleep, humans cycle through Rapid Eye Movements (REM) and four stages of non-REM (NREM) sleep numerous times a night. When one is repeatedly interrupted and can't cycle normally through these types and stages of sleep, humans may feel tired, fatigued, and have trouble concentrating and paying attention while being awake. <sup><a href=”https://www.webmd.com/sleep-disorders/guide/understanding-sleep-problems-basics#1”> [1]</a></sup>
-
-							When someone is suddenly forced to wake up they have higher blood pressure and heart rate than those allowed to wake up in their own time.<sup><a href=”https://www.dailymail.co.uk/health/article-412283/How-alarming-Your-bedside-clock-bad-health.html”> [2]</a></sup>
-
-							Researchers have found that, over the past decade, people have been going to bed later but still getting up at the same time, losing about 40 minutes of sleep on workdays. <sup><a href=”https://www.smithsonianmag.com/science-nature/your-alarm-clock-may-be-hazardous-to-your-health-164620290/”> [3]</a></sup> </p>
-
-							<p> As we can see that sleep not only impacts productivity but has health implications too. </p>
-
-						</div>
-
-				<div class="text-width"><h2><span class="head-style">User Research</span></h2></div>
-					<div class="text-width">
-						<h3>User Interviews</h3>
-						<p>
-						We interviewed a total of 22 users.
-						</p>
-
-						<section class="columns">
-
-							<div class="column">
-								<h1>5</h1>
-								<p>Students </p>
-							</div>
-
-							<div class="column">
-								<h1>12</h1>
-								<p> Working Professionals </p>
-							</div>
-
-					  		<div class="column">
-								<h1>5</h1>
-								<p>Homemakers</p>
-							</div>
-					</section>
-						<p><strong>A few findings from the interviews</strong>
-							<blockquote>"I didn't even realize that that my Apple Watch helps me wake up on time"</blockquote>
-							<blockquote> Where the user keeps his waking up device (alarm, phone) has emerged as a big factor in deciding the waking up experience. </blockquote>
-							<blockquote> People who have a certain goal in the morning, they wake up fresh to achieve that and they are on the constant lookout for incentives and motivation to wake up. </blockquote>
-							<blockquote> People are able to successfully lie to themselves about sleeping for <strong>5 more minutes</strong> always and regret it later. </blockquote></p> <p><br></p>
-					</div>
-
-
-					<div class="text-width"><h2><span class="head-style">Research Synthesis</span></h2></div>
-					<div class="text-width"><h3>Insights from Contextual Enquiry</h3>
-						<p></p>
-						<section class="columns">
-
-							<div class="column">
-								<h3>The Routine-Sleep Cycle is a vicious circle</h3>
-								<p>A disturbance in the routine disturbs the sleep cycle which then again disturbs the routine in a never-ending circle</p>
-							</div>
-
-							<div class="column">
-								<h3>People have their own perceived sleeping quota and pre-sleep rituals</h3>
-								<p> From music to reading to Instagram, everyone has their own idea of unwinding and their own idea of sufficient sleep hours.</p>
-							</div>
-
-						</section>
-
-						<section class="columns">
-
-							<div class="column">
-								<h3>People percieve alarms differently</h3>
-								<p>People's perception and reaction of alarms is different. Some hate alarms, some get used to them and it stops working for them and for some it has little or no effect. </p>
-							</div>
-
-							<div class="column">
-								<h3>People have their own reasons for waking up</h3>
-								<p> Some had positive, others had not so positive reasons. The reasons ranged from motivation to compulsion to the belief that mornings are super-productive.</p>
-							</div>
-
-						</section>
-
-						<p></p>
-
-					</div>
-
-		<div class="text-width"><hr/></div>
-			<div class="text-width">
-						<h3>User Persona</h3>
-				<div class="post-image">
-						<img class="img-border" style="border:none;" src="images/wake/wake_persona1.png">
-				</div>
-			</div>
-
-
-
-			<div class="text-width">
-						<h3>Key User Requirements</h3>
-				<p>Disturbance to the sleep cycle should be minimised.</p>
-				<p>Meeting the perceived sleep quota and pre-sleep unwinding.</p>
-				<p>Alarms should be <strong>less intrusive</strong> and more effective.</p>
-				<p>Waking up fresh so that the goals of the day are met.</p>
-
-				<p></p>
-			</div>
-
-			<div class="text-width"><hr/></div>
-			<div class="text-width">
-						<h3>How should we respond?</h3>
-				<div class="post-image">
-						<img class="img-border" width="75%" style="border:none;" src="images/wake/wake_sol1.png">
-					<p></p>
-					<img class="img-border" width="55%" style="border:none;" src="images/wake/wake_sol2.png">
-					</div>
-			</div>
-
-			<div class="text-width"><h2><span class="head-style">Ideation and Solutions</span></h2></div>
-			<div class="text-width">
-				<h3>Solution Space</h3>
-				<p></p>
-				<div class="post-image">
-						<img class="img-border" style="border:none;" src="images/wake/wake_solutions-1.png">
-
-				</div>
-			</div>
-
-			<div class="text-width"><hr/></div>
-			<div class="text-width">
-				<h3>Wake Band - How should the product be designed?</h3>
-			</div>
-						<section class="columns" style="background: none;">
-
-							<div class="column">
-								<div class="post-image">
-									<img class="img-border" style="border:none;" src="images/wake/wake_prod1.png">
-
-									<img class="img-border"  style="border:none;" src="images/wake/wake_prod5.png">
-
-									<img class="img-border"  style="border:none;" src="images/wake/wake_prod3.png">
-								</div>
-							</div>
-
-							<div class="column">
-								<div class="post-image">
-									<img class="img-border" style="border:none;" src="images/wake/wake_prod4.png">
-
-									<img class="img-border" style="border:none;" src="images/wake/wake_prod2.png">
-
-									<img class="img-border" style="border:none;" src="images/wake/wake_prod6.png">
-								</div>
-							</div>
-
-				</section>
-
-
-			<div class="text-width">
-				<h3>Wake App</h3>
-				<p></p>
-			<!--	<div class="wrap">
-				<iframe class="frame" width="442" height="935"  src="https://invis.io/GTQ0PLJE94F" frameborder="0" allowfullscreen></iframe>
 			</div> -->
-				<iframe width="442" height="935" src="https://invis.io/GTQ0PLJE94F" frameborder="0" allowfullscreen></iframe>
-				<div class="post-image">
-
-
-				</div>
-			</div>
-
-			<div class="text-width">
-				<h3>VR Awake</h3>
-				<p>This is a 360&deg; scene exploration of what the user will see after waking up. </p>
-				<p></p>
-<!--				<iframe id="holobuilderIframe" width="1000" height="600" src="https://app.holobuilder.com/app/?p=5340576891273216&o=272" border="0" frameborder="0" style="border: 0" allowfullscreen mozallowfullscreen webkitallowfullscreen allow="vr;gyroscope;accelerometer" title="HoloBuilder.com"></iframe>-->
-
-						<iframe id="holobuilderIframe" width="1000" height="600" src="https://app.holobuilder.com/app/?p=5340576891273216&o=577" border="0" frameborder="0" style="border: 0" allowfullscreen mozallowfullscreen webkitallowfullscreen allow="vr;gyroscope;accelerometer" title="Wake"></iframe>
-				<p></p>
-			</div>
-
-			<div class="text-width"><h2><span class="head-style">Testing and Evaluation</span></h2></div>
-			<div class="text-width">
-						<h3>Key questions the Usability Tests should answer</h3>
-
-						<section class="columns" style="background:#ffffff;">
-
-							<div class="column">
-								<h3>Adoption</h3>
-								<p>For alarm users who don’t use an additional accessory while sleeping, are they hesitant to adopt a sleep mask? Is it the same for users who are already using a device like Fitbit?</p>
-							</div>
-
-							<div class="column">
-								<h3>Sustainability</h3>
-								<p> For both kind of users, ones who have used a sleep mask before and ones who have never, how is the con?nued use? Why and when do people stop using it?</p>
-							</div>
-
-							<section class="columns" >
-
-							<div class="column">
-								<h3>Impact</h3>
-								<p>When do the users start feeling the benefits of the new addition in their lives? Has their sleeping pattern improved? Are they waking up fresh? </p>
-							</div>
-
-						</section>
-				</section>
-
-						<p></p>
-
-					</div>
-
-			<div class="text-width"><hr/></div>
-					 <div class="text-width">
-						<h3>
-							How do we test all of these in a <strong>non-intrusive</strong> manner?
-						</h3>
-						<p>The <strong>Pittsburgh Sleep Quality Index (PSQI)</strong> is a self-report questionaire that assesses sleep quality period of 1-month.
-						</p>
-						 <p>
-							19 Questions
-						 </p>
-						<p>
-							7 component scores
-						</p>
-						<p>
-							Subjective sleep quality.
-							<strong>Sleep latency.</strong>
-							Sleep duration.
-							<strong>Habitual sleep efficiency.</strong>
-							Sleep disturbances.
-							<strong>Use of sleeping medication.</strong>
-							Daytime dysfunction.
-						</p>
-
-						<br>
-
-						<h3>
-							Improving the realiability of Pittsburgh Sleep Quality Index (PSQI)
-						</h3>
-						<p>10 out of 19 questions can be answered by <strong>sensors</strong> available today.</p>
-
-						<p>Asking the other 9 questions <strong>everyday or every alternate day</strong> is better than asking at the end of the month.
-						</p>
-
-					 </div>
-
-			<div class="text-width"><hr/></div>
-			<div class="text-width">
-				<h3>Designing the Usability Tests</h3>
-
-						<section class="columns" style="background: none;">
-
-							<div class="column">
-								<div class="post-image">
-									<img class="img-border" style="border:none;" src="images/wake/wake_ut1.png">
-
-									<p>Testing the improvement in sleep quality using the sleep mask over a period of time</p>
-								</div>
-							</div>
-
-							<div class="column">
-								<div class="post-image">
-									<img class="img-border" style="border:none;" src="images/wake/wake_ut2.png">
-
-									<p>Testing the usability of the App and the VR Experience</p>
-								</div>
-							</div>
-
-				</section>
-			</div>
-
-
-					 <div class="text-width">
-						<h3>
-							Prototype Specifications
-						</h3>
-						<p>Prototype is equipped with <strong>pressure and heat-flow sensors</strong> along the surface to determine the magnitude and distribution of contact pressure, throughout the sleep cycle, and heat flow into the mask. <strong>Moisture sensors</strong> for testing the moisture transport between different layers of the fabric.
-						 </p>
+    </header>
 
-						 <p>
-							Other sensors to measure biological signals: <br />
-							&nbsp;&nbsp;&nbsp;&nbsp;Brain waves (EEG - electroencephalography),<br />
-							&nbsp;&nbsp;&nbsp;&nbsp;Muscle tension (EMG - electromyography), and <br />
-							&nbsp;&nbsp;&nbsp;&nbsp;Eye movements (EOG - electrooculography) <br /> <br />
-							All of these sensors are available in embeddable format today.
-						</p>
-					 </div>
 
-			<div class="text-width"><hr/></div>
-					 <div class="text-width">
-						<h3>
-							Longitudinal Usability Test (Sleep Quality)
-						</h3>
-						 <br>
-						<section class="columns" style="padding-bottom: 0.1rem;">
 
-							<div class="column">
-								<h3>Number of Users</h3>
-								<p>25 users</p>
-							</div>
+    <div class="container">
 
-							<div class="column">
-								<h3>Duration</h3>
-								<p>4 weeks</p>
-							</div>
-						</section>
 
-							<section class="columns" style="background:#f5f5f5; padding-top: 0.1rem; padding-bottom: 0.1rem;">
 
-							<div class="column">
-								<h3>Hardware/Software</h3>
-								<p>Wake Mask and Companion App. <br />
-								The companion app is modified to enable the testers to log meals and other details before sleep and after waking up.</p>
-							</div>
+      <!-- Test Start -->
 
-						</section>
 
-							<section class="columns" style=" padding-top: 0.1rem;">
+      <div class="content-grid project-masonry filter-container">
+        <div class="gutter-sizer"></div>
+        <!-- Item 1 -->
+        <figure class="content-grid__item onHover js-scroll-show category-modern">
+          <div class="content-grid__caption">
+            <h2 class="title title--h5">Overview</h2>
+            <p class="description">Wake was a research led design project undertaken at the Monsoon Course in HCI in a team of 6 people.</p>
+          </div>
+        </figure>
+        <!-- /Item 1 -->
 
-							<div class="column">
-								<h3>User Tasks</h3>
-								<p><strong>Before Sleep</strong></p>
-								<p>Log your meals in the companion app <br /><br />
-								Log the medicines taken during the day in the app <br /><br />
-								Set the morning alarm for the desired ?me to wake up</p>
-							</div>
+        <!-- Item 2 -->
+        <figure class="content-grid__item onHover js-scroll-show category-modern">
+          <div class="content-grid__caption">
+            <h2 class="title title--h5">My Role</h2>
+            <p class="description">UX Research: 4/22 user interviews, contextual enquiry, and user testing. UX Design: end-to-end wireframing, prototyping</p>
+          </div>
+        </figure>
+        <!-- /Item 2 -->
 
-							<div class="column">
-								<h3>&nbsp;  </h3>
-								<p><strong>During Sleep</strong></p>
-								<p>
-								Comfort (using Contact Pressure, thermal and moisture sensors)<br /><br />
-								Time to Fall Asleep and Waking up Time<br /><br />
-								Forehead/Eye Muscle Tension over-night<br /><br />
-								Brain Activity and REM phases<br /><br />
-								Body Temperature, Snoring, Coughing during sleep<br /><br />
+        <!-- Item 3 -->
+        <figure class="content-grid__item onHover js-scroll-show category-modern">
+          <div class="content-grid__caption">
+            <h2 class="title title--h5">Tools</h2>
+            <p class="description">Contextual Enquiry, Affinity, Sketch, InVision</p>
+          </div>
+        </figure>
 
-								</p>
-							</div>
 
-							<div class="column">
-								<h3>&nbsp;  </h3>
-								<p><strong>After Sleep</strong></p>
-								<p>Open the companion app after 15 minutes<br /><br />
-								Play the <strong>Wake Up Swipe game</strong> <br /><br />
-							</div>
+        <!-- /Item 3 -->
 
-						</section>
 
 
-						<p></p>
 
-					</div>
+      </div>
 
-			<div class="text-width"><hr/></div>
-			<div class="text-width">
-						<h3>
-							Wake Up Swipe Game
-						</h3>
-						<p>The swipe game for testers is a <strong>low cognitive load game</strong> which presents <strong>5 simple questions</strong> with two options each. These options are designed to <strong>answer unanswered questions from the PSQI questionaire</strong> or to measure the <strong>mindfulness, alertness, decisiveness and mood</strong> of the user in the morning.</p>
+      <!-- Test End -->
 
-							<img class="img-border" width="46%" style="border:none;" src="images/wake/wake_game1.png">
 
-							<br>
 
 
-							<p>Using the before, during and after sleep activities reported daily by the user and the device the Pittsburg Sleep Quality Index questionnaire can be automatically filled and scored.
-						 </p>
-				<p></p>
-				<p>A comparison of these scores over 2 weeks will tell us whether user’s sleep quality is improving and by what measure.</p>
-					 </div>
 
 
+      <!-- Context -->
+      <div class="row justify-content-center content-caption">
+        <div class="col-12 col-lg-4">
+          <h2 class="title title--h5 js-lines">Context</h2>
+        </div>
 
+        <div class="col-12 col-lg-8 js-scroll-show">
 
+          <h5>Why do we feel tired on some days? </h5>
+          <p class="description">During normal sleep, humans cycle through Rapid Eye Movements (REM) and four stages of non-REM (NREM) sleep numerous times a night. When one is repeatedly interrupted and can't cycle normally through these types and stages of sleep, humans may feel tired, fatigued, and have trouble concentrating and paying attention while being awake. <sup>[1]</sup> </p>
 
 
-					<div class="text-width"><h2><span class="head-style">Reflection</span></h2></div>
-					 <div class="text-width">
-						<h3>
-							Reflections
-						</h3>
-						<p>With the progress of technology, there are currently <a href="https://www.reuters.com/article/us-samsung-foldable/samsung-display-says-unbreakable-flexible-screen-passes-u-s-safety-test-idUSKBN1KH09L"> flexible displays </a> available in the market and thus we are on the road towards the technological feasability of the solution. This being my first design project, I have learned about valuable insights on how the design process works. </p>
-						<p>If I were to do this project again, I <strong>would take more time on the actual prototyping and user testing via the Wizard of Oz method</strong> to further test our solution.</p>
-					 </div>
 
+          <div class="container" style="padding-top:2rem; padding-left:0; padding-right:0;">
+      		    <div class="row justify-content-between">
 
+                <div class="col-12 col-md-6 service-item">
+      			        <p class="title"><b>Impacts of sudden waking up</b></p>
+      					<p class="description">When someone is suddenly forced to wake up they have higher blood pressure and heart rate than those allowed to wake up in their own time. <sup>[2]</sup> </p>
+      			    </div>
 
-					 </div>
-				</div>
+                <div class="col-12 col-md-6 service-item">
+      			        <p class="title"><b>Sleep quota</b></p>
+      					<p class="description">Researchers have found that, over the past decade, people have been going to bed later but still getting up at the same time, losing about 40 minutes of sleep on workdays. <sup>[3]</sup></p>
+      			    </div>
 
+      			</div>
+      		</div>
 
+        </div>
+      </div>
 
+      <!-- Context -->
 
 
+      <div class="container section-about" style="margin-top:4rem;">
+          <h2 class="title title--h2">The Outcome</h2>
+  		</div>
 
+      </div> <!-- End Contaier -->
 
-		<div class="projects-bottom">
-			<div class="content">
-					<div class="col-3">
-						  <a href="campaign.html" class="button">&larr; Previous Project</a>
-					</div>
-					<div class="col-3 left-margin-3-col">
-						<a href="index.html" class="button">All Projects</a>
-					</div>
-					<div class="col-3 left-margin-3-col">
-						<a href="auditory-keyboard.html" class="button">Next <span class="hide-word">Project</span> &rarr;</a>
-					</div>
-			</div>
-		</div>
 
-		<!-- -----------------------------
-			 FOOTER Start
-			------------------------------ -->
-		<div class="footer clear">
-			<div class="content">
-				<p>
-					<span class="float-center">Made by Parimal Vyas with &nbsp;❤️ and a lot of ☕</span>
 
-				</p>
-			</div>
-		</div>
-		<!-- ------------------------------
-			  FOOTER End
-			 ------------------------------ -->
 
+      <!-- Introducing WAKE -->
 
-	</body>
+      <div class="row justify-content-center">
+        <div class="col-12 justify-content-center">
+          <div class="gallery">
+            <div class="gallery__item reveal-box" style="background:#272727; padding: 3rem;" >
+              <img class="cover zoom-cursor lazyload" style="display:block; margin:auto; width:65%;" src="./assets/img/wake/sol.png" data-zoomable alt="" />
+              <span class=" "></span>
+            </div>
+          </div>
+        </div>
+      </div>
 
-		<script>
-			// When the user scrolls the page, execute myFunction
-		window.onscroll = function() {myFunction()};
+      <!-- End Introducing WAKE -->
 
-		function myFunction() {
-		  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-		  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-		  var scrolled = (winScroll / height) * 100;
-		  document.getElementById("myBar").style.width = scrolled + "%";
-		}
 
-		</script>
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript" ></script>
-	<!--** typed.js for autotype text **-->
-	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
-	<script src="myscript.js"></script>
+<div class="container">
+
+
+  <!-- Buttons -->
+      <div class="row justify-content-center content-caption">
+        <div class="col-12 js-scroll-show">
+          <div class="gallery gallery-two">
+
+            <div class="gallery__item reveal-box text-center">
+              <h5 class="decision">
+                <a class="bigger" href="#solution">
+                  TL;DR skip to the solution
+                </a>
+              </h5>
+
+            </div>
+
+            <div class="gallery__item reveal-box text-center">
+              <h5 class="decision">
+                <a class="bigger" href="#research">
+                  See the process
+                </a>
+              </h5>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+<!-- Buttons -->
+
+<!-- Research -->
+
+<div id="research" class="container section-about">
+  <!-- Description -->
+  <div class="row justify-content-center">
+    <div class="col-12" style="padding:0;">
+      <h2 class="title title--h2 js-lines">Research</h2>
+
+      <!-- Interviews -->
+
+      <div id="process" class="row justify-content-center content-caption">
+
+        <div class="col-12 col-lg-4">
+          <h2 class="title title--h5 js-lines">User Interviews</h2>
+        </div>
+
+        <div class="col-12 col-lg-8 js-scroll-show">
+          <p class="description">
+            We interviewed 22 users
+          </p>
+
+
+          <div class="row justify-content-between" style="background:#f9f9f9; padding:2rem; padding-bottom:0.5rem;">
+
+          <div class="col-12 col-md-4 service-item" style="margin-bottom:0;">
+            <h3>5</h3>
+              <p><b>Students</b></p>
+
+
+          </div>
+
+          <div class="col-12 col-md-4 service-item "  style="margin-bottom:0;">
+            <h3>12</h3>
+              <p><b>Working Professionals</b></p>
+
+
+          </div>
+
+          <div class="col-12 col-md-4 service-item "  style="margin-bottom:0;">
+            <h3>5</h3>
+              <p><b>Homemakers</b></p>
+
+
+          </div>
+
+        </div>
+
+
+
+          <br />
+
+
+        <!--   <p class="description">
+
+            <i>"I didn't even realize that my Apple Watch helps me wake up on time." </i>  <br />
+
+            Where the user keeps his waking up the device (alarm, phone) has emerged as a big factor in deciding the waking up experience.   <br />
+
+            People are able to successfully lie to themselves about sleeping for 5 more minutes and regret it later. <br />
+
+            People who have a certain goal in the morning, they wake up fresh to achieve that and they are on the constant lookout for incentives and motivation to wake up. <br />
+
+          </p> -->
+
+        </div>
+      </div>
+
+      <!-- Interviews -->
+
+      <!-- Archetypes -->
+
+      <div id="process" class="row justify-content-center content-caption">
+
+        <div class="col-12 col-lg-4">
+          <h2 class="title title--h5 js-lines">User Archetypes <br /> and Persona</h2>
+        </div>
+
+        <div class="col-12 col-lg-8 js-scroll-show">
+
+
+
+          <div class="row justify-content-between">
+
+            <div class="col-12 col-md-3 service-item ">
+              <img class="service-item__icon" style="width:7rem;" src="./assets/img/wake/supervised.png" alt=""/>
+                <p><b>The Supervised</b> have external human help to wake up.</p>
+            </div>
+
+            <div class="col-12 col-md-3 service-item ">
+              <img class="service-item__icon" style="width:7rem;" src="./assets/img/wake/deep_sleeper.png" alt=""/>
+                <p><b>The Deep Sleeper</b> uses multiple alarms to wake up.</p>
+            </div>
+
+            <div class="col-12 col-md-3 service-item ">
+              <img class="service-item__icon" style="width:7rem;" src="./assets/img/wake/alarmed.png" alt=""/>
+                <p><b>The Alarmed</b> gets irritated by alarms.</p>
+            </div>
+
+            <div class="col-12 col-md-3 service-item ">
+              <img class="service-item__icon" style="width:7rem;" src="./assets/img/wake/balanced.png" alt=""/>
+                <p><b>The Balanced</b> have a well-defined body clock and do not need alarms.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Archetypes-->
+
+      <!-- <p class="description">
+        The following persona incorporates <b>The Deep Sleeper</b> and <b>The Alarmed.</b>
+      </p> -->
+
+      <!-- Perosna -->
+
+            <div class="row justify-content-center">
+              <div class="col-12">
+                <div class="gallery">
+                  <div class="gallery__item reveal-box">
+                    <img class="cover zoom-cursor lazyload" src="./assets/img/wake/wake_persona1.png" data-zoomable alt="" />
+                    <span class=" "></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+      <!-- Perosna -->
+
+      <div id="process" class="row justify-content-center content-caption">
+
+        <div class="col-12 col-lg-6">
+          <h2 class="title title--h5 js-lines">Current User Journey</h2>
+        </div>
+
+        <div class="col-12 col-lg-6 js-scroll-show"></div>
+
+      </div>
+
+      <!-- Summary of Research -->
+
+            <div class="row justify-content-center">
+              <div class="col-12">
+                <div class="gallery">
+                  <div class="gallery__item reveal-box">
+                    <img class="cover zoom-cursor lazyload" style="height:80%; width:80%;" src="./assets/img/wake/wake_before.png" data-zoomable alt="" />
+                    <span class=" "></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+      <!-- Summary of Research -->
+
+      <!-- Probblem v2 -->
+
+      <div class="container section-about" style="margin-top:8rem;">
+          <h2 class="title title--h2" style="padding-bottom:4rem;">The Problems</h2>
+  		    <div class="row justify-content-between">
+
+  			    <div class="col-12 col-md-3 service-item ">
+  				    <img class="service-item__icon" src="./assets/img/wake/problem_cycle.png" alt=""/>
+  			        <p><b>The Routine-Sleep Cycle is a vicious circle</b></p>
+
+                <p><b style="opacity:0.5; padding-top:0;">INSIGHT</b> Disturbance of the sleep cycle should be minimized.
+                  </p>
+  			    </div>
+
+            <div class="col-12 col-md-3 service-item ">
+  				    <img class="service-item__icon" src="./assets/img/wake/quota.png" alt=""/>
+  			        <p><b>Perceived sleep quota and pre-sleep rituals</b></p>
+
+                <p><b style="opacity:0.5; padding-top:0;">INSIGHT</b> Meeting the perceived sleep quota and pre-sleep unwinding.
+                  </p>
+  			    </div>
+
+            <div class="col-12 col-md-3 service-item ">
+  				    <img class="service-item__icon" src="./assets/img/wake/alarm.png" alt=""/>
+  			        <p><b>People perceive alarms differently</b></p>
+
+            <p><b style="opacity:0.5; padding-top:0;">INSIGHT</b> Alarms should be less intrusive and more effective.
+            </p>
+  			    </div>
+
+            <div class="col-12 col-md-3 service-item ">
+  				    <img class="service-item__icon" src="./assets/img/wake/reasons.png" alt=""/>
+  			        <p><b>People have their own reasons for waking up</b></p>
+
+            <p><b style="opacity:0.5; padding-top:0;">INSIGHT</b> Waking up fresh so that the goals of the day are met.
+            </p>
+  			    </div>
+
+  			</div>
+
+
+
+  		</div>
+
+      <!-- Probblem v2 -->
+
+    </div>
+  </div>
+</div>
+<!-- Research -->
+
+
+
+      <!-- Ideation -->
+
+      <div id="ideation" class="container section-about">
+        <!-- Description -->
+        <div class="row justify-content-center">
+          <div class="col-12" style="padding:0;">
+            <h2 class="title title--h2 js-lines">Ideation</h2>
+
+            <!-- Item 1 Start -->
+            <div class="gallery gallery-two">
+              <div class="gallery__item ">
+                <img class="cover lazyload"  src="./assets/img/wake/smart_watch01.jpg" alt="" />
+                <span class=""></span>
+              </div>
+
+              <div class="gallery__item ">
+                <h5 class="title title--h5 js-lines">Smart Watch</h5>
+                <p>
+                  The market has a few options such as Apple Watch, FitBit Versa, etc. These have limitations with what they can do due to the form factor the range of sensors that they can hold.</p>
+                <span class=""></span>
+              </div>
+            </div>
+            <!-- Item 1 End -->
+
+            <!-- Item 2 Start -->
+            <div class="gallery gallery-two" style="margin-top:2rem;">
+
+              <div class="gallery__item">
+                <h5 class="title title--h5 js-lines">Smart Pillow</h5>
+                <p>
+                  Except for ZEEK Smart Pillow, there are not many options. They are not very portable and take up a lot of space.</p>
+                <span class=" "></span>
+              </div>
+
+              <div class="gallery__item">
+                <img class="cover lazyload" src="./assets/img/wake/pillow.jpg" alt="" />
+                <span class=" "></span>
+              </div>
+
+
+            </div>
+            <!-- Item 2 End -->
+
+            <!-- Item 3 Start -->
+            <div class="gallery gallery-two" style="margin-top:2rem;">
+
+              <div class="gallery__item reveal-box">
+                <img class="cover lazyload" src="./assets/img/wake/eye_mask.png" alt="" />
+                <span class=" "></span>
+              </div>
+
+              <div class="gallery__item reveal-box">
+                <h5 class="title title--h5 js-lines">Smart Eye Mask</h5>
+                <p>
+                  Currently, there are sleep masks such as iMore, Lumos, GoToSleep, etc but we want to rethink the space and push boundaries around it.
+                  <br/> Holds potential as eye masks are a natural element while sleeping. They are portable and can be used while traveling too.</p>
+                <span class=" "></span>
+              </div>
+            </div>
+            <!-- Item 3 End -->
+
+          </div>
+        </div>
+      </div>
+      <!-- Ideation -->
+
+
+      <!-- Solution -->
+
+      <div id="solution" class="container section-about">
+        <!-- Description -->
+        <div class="row justify-content-center">
+          <div class="col-12" style="padding:0;">
+            <h2 class="title title--h2 js-lines">Solution</h2>
+
+            <!-- Item 1 Start -->
+            <div class="gallery gallery-two">
+              <div class="gallery__item reveal-box">
+                <img class="cover lazyload" src="./assets/img/wake/wake_ut1.png" alt="" />
+                <span class=""></span>
+              </div>
+
+              <div class="gallery__item reveal-box">
+                <h5 class="title title--h5 js-lines">WAKE Band</h5>
+                <p>
+                  Ergonomically designed product with modern sensors.
+                  <ul> Pressure and Heat-flow Sensors</ul>
+                  <ul>Moisture Sensors</ul>
+                  <ul>Bio Sensors: <br/>
+                  Brain waves (EEG - electroencephalography), </ul>
+                  <ul>Muscle tension (EMG - electromyography) </ul>
+                  <ul> Eye movements (EOG - electrooculography) </ul>
+                </p>
+                <span class=""></span>
+              </div>
+            </div>
+            <!-- Item 1 End -->
+
+            <!-- Product -->
+
+                  <div class="row justify-content-center">
+                    <div class="col-12">
+                      <div class="gallery">
+                        <div class="gallery__item reveal-box">
+                          <img class="cover zoom-cursor lazyload" src="./assets/img/wake/wake_prod_all.png" data-zoomable alt="" />
+                          <span class=" "></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            <!-- Product -->
+
+            <br /> <br /> <br />
+
+
+            <!-- Item 2 Start -->
+            <div class="gallery gallery-two" style="margin-top:2rem;">
+              <div class="gallery__item reveal-box">
+                <img class="cover lazyload" style="width: 15rem; margin-left:7rem;" src="./assets/img/wake/app.gif" data-zoomable alt="" />
+                <span class=""></span>
+              </div>
+
+              <div class="gallery__item reveal-box">
+                <h5 class="title title--h5 js-lines">WAKE App</h5>
+                <p>
+                  For Seeping: Select soothing music from the list or a one of your choice.
+                  <ul>
+                  <li>Choose WakeUp Time</li>
+                  <li>Select a scenario for waking up, and </li>
+                  <li>Track sleep quality  </li>
+                </ul>
+                </p>
+                <span class=""></span>
+              </div>
+            </div>
+            <!-- Item 2 End -->
+
+              <br /> <br />
+
+            <!-- Product -->
+
+                  <div class="row justify-content-center">
+                    <div class="col-12">
+                      <div class="gallery">
+                        <div class="gallery__item reveal-box">
+                          <img class="cover zoom-cursor lazyload" src="./assets/img/wake/wake_proto.png" data-zoomable alt="" />
+                          <span class=" "></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            <!-- Product -->
+
+            <br /> <br /> <br />
+
+
+
+
+            <!-- Iframe -->
+             <div class="gallery gallery-two" style="padding-top:5rem;">
+
+              <div class="gallery__item ">
+                <h5 class="title title--h5 js-lines">VR Awake</h5>
+                <p>
+                  An immersive VR experience with audio. Users can choose what scenarios to wake up to.</p>
+
+                  <p>
+                    $$$ Going forward the scenes could be a part of a store where users can buy and sell premium scenarios thereby creating an opportunity for secondary revenue.  $$$ </p>
+                <span class=" "></span>
+              </div>
+
+
+              <div class="gallery__item ">
+                <iframe src="https://player.vimeo.com/video/388781490" width="640" height="360" style="background:none;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
+              </div>
+
+
+
+            </div>
+
+            <!-- iframe-->
+
+      <br /> <br />
+
+      <!-- Impact of the Design -->
+            <div id="process" class="row justify-content-center content-caption">
+
+              <div class="col-12 col-lg-8">
+                <h2 class="title title--h5 js-lines">Impact of the Design (Improved User Journey)</h2>
+              </div>
+
+              <div class="col-12 col-lg-4 js-scroll-show"></div>
+
+            </div>
+
+                  <div class="row justify-content-center">
+                    <div class="col-12">
+                      <div class="gallery">
+                        <div class="gallery__item reveal-box">
+                          <img class="cover zoom-cursor lazyload" style="height:80%; width:80%;" src="./assets/img/wake/wake_after.png" data-zoomable alt="" />
+                          <span class=" "></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+      <!-- Impact of the Design -->
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+      <!-- Solution -->
+
+
+
+      <!-- User Testing -->
+
+      <div id="research" class="container section-about">
+        <!-- Description -->
+        <div class="row justify-content-center">
+          <div class="col-12" style="padding:0;">
+            <h2 class="title title--h2 js-lines">User Testing</h2>
+
+            <!-- Usability Tests -->
+
+            <div id="process" class="row justify-content-center content-caption">
+
+              <div class="col-12 col-lg-4">
+                <h2 class="title title--h5 js-lines">Usability Tests</h2>
+              </div>
+
+              <div class="col-12 col-lg-8 js-scroll-show">
+
+                <div class="row justify-content-between" style="background:#f9f9f9; padding:2rem; padding-bottom:0rem;">
+                <p class="description">
+                  <b>🤔What do we test?</b>
+                </p>
+              </div>
+
+
+
+                <p class="description" style="margin-top: 2rem;">
+                  <b>Key questions the Usability Tests should answer.</b>
+                </p>
+
+               <div class="row justify-content-between" >
+
+                  <div class="col-12 col-md-4 service-item" style="margin-bottom:0;">
+                    <p><b>Adoption</b></p>
+                    <p>For alarm users who don’t use an additional accessory while sleeping, are they hesitant to adopt a sleep mask? </p>
+                  </div>
+
+                  <div class="col-12 col-md-4 service-item" style="margin-bottom:0;">
+        				    <p><b>Sustainability</b></p>
+        			      <p>How is the continued use for the ones who have used a sleep mask before and ones who have never?</p>
+                  </div>
+
+                  <div class="col-12 col-md-4 service-item" style="margin-bottom:0;">
+        				    <p><b>Impact</b></p>
+        			      <p>When do the users start feeling the benefits of the new addition in their lives? Has their sleeping pattern improved?</p>
+                  </div>
+
+                </div>
+
+                <br />
+
+                <div class="row justify-content-between" style="background:#f9f9f9; padding:2rem; padding-bottom:0.5rem;">
+                <p class="description">
+                  <b>💡The Pittsburgh Sleep Quality Index (PSQI)</b>  Improving the reliability of the PSQI.
+                </p>
+              </div>
+
+              <p class="description" style="padding-top:1.5rem;">
+                <b>The Pittsburgh Sleep Quality Index (PSQI)</b> <br />
+                It is a self-report questionnaire that assesses sleep quality period of 1-month with
+                19 Questions and
+                7 component scores.
+              </p>
+
+              <p class="description">
+                <b>✅10 out of 19 questions </b> can be answered by sensors embedded in the prototype. Asking the other 9 questions every <b>alternate day</b> is better than asking at the end of the month.
+              </p>
+
+
+              <div class="row justify-content-between" >
+
+                 <div class="col-12 col-md-6 service-item" style="margin-bottom:0;">
+                   <p>
+                     The <b>WakeUp Swipe Game </b> has low cognitive load that presents <b>5 simple questions</b> with two options each. <br /> These options are designed to measure the mindfulness, alertness, decisiveness, and mood of the user in the morning.
+                   </p>
+                 </div>
+
+                 <div class="col-12 col-md-6 service-item" style="margin-bottom:0;">
+
+                   <div class="row justify-content-center">
+                   <div class="col-12">
+                     <div class="gallery">
+                       <div class="gallery__item reveal-box" style="margin-top:0;">
+                         <img class="cover zoom-cursor lazyload" style="width:15rem;" src="./assets/img/wake/wake_game1.png" />
+                         <span class=""></span>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+
+               </div>
+             </div> <br />
+
+                 <div class="row justify-content-between" style="background:#f9f9f9; padding:2rem; padding-bottom:0.5rem;">
+                 <p class="description">
+                   <b>Longitudinal Usability Test (Sleep Quality)</b>
+                 </p>
+               </div> <br />
+
+               <p>
+                Testing the system with <b>25 users</b> for <b>4 weeks</b> of using the <b>Wake Mask and Companion App</b> with data collection by user inputs <b>before sleep</b>, automatic data collection using the sensors <b>during sleep</b>, and <b>WakeUp Swipe</b> game shown above to collect data <b>after waking up.</b>
+               </p>
+             </div>
+               <br />
+          </div>
+            </div>
+
+            <!-- Usability Tests -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+
+      <!-- User Testing -->
+
+      <!-- Reflections -->
+
+      <div id="reflection" class="container section-about">
+        <!-- Description -->
+        <div class="row justify-content-center">
+          <div class="col-12" style="padding:0;">
+            <h2 class="title title--h2 js-lines">Reflections</h2>
+
+            <p>
+              With the progress of technology, there are currently <a href="https://www.reuters.com/article/us-samsung-foldable/samsung-display-says-unbreakable-flexible-screen-passes-u-s-safety-test-idUSKBN1KH09L">flexible displays</a> available in the market and thus we are on the road towards the technological feasibility of the solution. This being my first design project, I have learned about valuable insights on how the design process works. <br /> <br />
+              <b>If I were to do this project again</b>, I would take more time on the actual prototyping and user testing via the Wizard of Oz method to further test our solution.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Reflections -->
+
+
+
+
+      <!-- Footer post -->
+      <footer class="post-footer">
+        <div class="post-footer__nav">
+          <a href="post_single.html#" class="btn-link"><strong>PREV POST</strong></a>
+          <a href="post_single.html#" class="btn-link btn-link--rearward"><strong>NEXT POST</strong></a>
+        </div>
+        <!-- Share -->
+      </footer>
+
+
+    </div> <!-- End Contaier -->
+
+    <!-- Footer -->
+    <footer class="footer js-scroll-show">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <ul class="footer__contacts list-unstyled">
+              <li> <h4 style="color:#686868;"> Let's Connect</h4> </li>
+                <li>
+                  <p class="foreword"> Hey! I'm currently seeking full-time opportunities starting May 2020. Feel free to get in touch if you like my work. <br />
+                    <a href="mailto:pavyas@iu.edu" style="color:#686868;"> pavyas@iu.edu </a>
+                  </p>
+                </li>
+            </ul>
+            <div class="social footer__social">
+              <a class="social__link" href="https://www.instagram.com/vyasparimal"><i class="icon-instagram"></i></a>
+              <a class="social__link" href="https://www.medium.com/@parimalvyas"><i class="fab fa-medium-m"></i></a>
+              <a class="social__link" href="https://www.linkedin.com/in/parimalvyas"><i class="icon-linkedin"></i></a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+  </main>
+
+
+
+
+
+  <!-- Cursor -->
+  <div class="node" id="node"></div>
+  <div class="cursor" id="cursor"></div>
+
+  <div class="back-to-top zoom-cursor magnetic"></div>
+
+  <!-- JavaScripts -->
+  <script src="./assets/js/jquery-3.4.1.min.js"></script>
+  <script src="./assets/js/plugins.js"></script>
+  <script src="./assets/js/common.js"></script>
+
+  <script src="./assets/demo/plugins-demo.js"></script>
+  <script src="https://kit.fontawesome.com/c4439accd9.js"></script>
+
+
+</body>
 
 </html>
