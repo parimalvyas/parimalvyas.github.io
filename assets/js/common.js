@@ -47,13 +47,13 @@ $(document).ready(function() {
 		jarallax(); //Init parallax images
     });
 
-	$('body, .js-img-load').imagesLoaded({ background: false }).always( function( instance ) {
+	$().imagesLoaded({ background: !0 }).always( function( instance ) {
 	    preloader(); //Init preloader
     });
 
 
 	function preloader() {
-		var tl = new TimelineMax({paused: true});
+		var tl = new TimelineMax({paused: false});
 		tl.set('body', {
 			className: '+=no-scroll'
 		})
