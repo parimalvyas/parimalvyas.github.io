@@ -47,9 +47,10 @@ $(document).ready(function() {
 		jarallax(); //Init parallax images
     });
 
-	$('body, .js-img-load').imagesLoaded({ background: !0 }).always( function( instance ) {
+	$('body, .js-img-load').imagesLoaded({ background: false }).always( function( instance ) {
 	    preloader(); //Init preloader
     });
+
 
 	function preloader() {
 		var tl = new TimelineMax({paused: true});
@@ -88,6 +89,8 @@ $(document).ready(function() {
 
 		return tl;
 	};
+
+
 
 
     /*-----------------------------------------------------------------
