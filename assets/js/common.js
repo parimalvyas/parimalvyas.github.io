@@ -51,9 +51,16 @@ $(document).ready(function() {
 	    preloader(); //Init preloader
     });
 
+    /*
+    //---- Actual ---
+    $('body, .js-img-load').imagesLoaded({ background: !0 }).always( function( instance ) {
+  	    preloader(); //Init preloader
+      });*/
+
 
 	function preloader() {
 		var tl = new TimelineMax({paused: false});
+    //var tl = new TimelineMax({paused: true});
 		tl.set('body', {
 			className: '+=no-scroll'
 		})
