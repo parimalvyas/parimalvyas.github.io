@@ -164,7 +164,7 @@
         <figure class="content-grid__item onHover js-scroll-show category-modern">
           <div class="content-grid__caption">
             <h2 class="title title--h5">Overview</h2>
-            <p class="description">As the product which was built incrementally over the years with only client and sales team feedbacks it had become exponentially complex and difficult to use.</p>
+            <p class="description">The product was built incrementally over the years with only client and sales team feedbacks. Therefore it had become exponentially complex and difficult to use.</p>
           </div>
         </figure>
         <!-- /Item 1 -->
@@ -815,8 +815,8 @@
                 <div class="row justify-content-center">
                   <div class="col-12">
                     <div class="gallery">
-                      <div class="gallery__item reveal-box">
-                        <img class="cover zoom-cursor lazyload" src="./assets/img/imi/imi_persona.png" data-zoomable alt="" />
+                      <div class="gallery__item reveal-box" style="margin-top:0;">
+                        <img class="cover zoom-cursor lazyload" src="./assets/img/imi/imi_persona1.png" data-zoomable alt="" />
                         <span class=" "></span>
                       </div>
                     </div>
@@ -830,6 +830,7 @@
 
                         <div class="col-12">
                           <h2 class="title title--h2 js-lines">Needs and Goals</h2>
+                          <p class="description"> Since we are moving from a operator-served model to a self-served model the intearction between the Marketing Managers and the Operations team is reduced. The following needs are considered from the Marketing Manager's perspective.   </p>
                         </div>
 
 
@@ -843,7 +844,7 @@
 
                           <div class="gallery gallery-two" >
                             <div class="gallery__item ">
-                        <h5 class="title title--h5">User Needs</h5>
+                        <h5 class="title title--h5">Primary User Needs</h5>
                         <p class=""> <strong>Dashboard</strong> <br/>
                           <ul>
                             <li>See <strong>relevant</strong> information.</li>
@@ -1096,14 +1097,27 @@
                 <div class="gallery">
                   <div class="gallery__item reveal-box"><br/><br/><br/>
                     <h5> All Data Vizualizations </h5>
-                    <p class="description"> To utilize space more efficiently compared to linear (horizontal or vertical) hierarchical visualizations, the radial orientation of the sunburst chart works best and it is interactive.
-                     </p>
-                     <p class="description"> <strong>Rationale: </strong> All elements on the same level are regarded equally important, thereby eliminating the dichotomy between the elements on the periphery and center. <br/> <br/>
-                    Since it resembles a pie chart, which most of us are familiar with; the Sunburst chart is intuitive in nature.
+
+
+                    <p class="description"> </p>
+
+                     <p class="description"> <strong>Viewing Composition: </strong> Donut Chart, Half Donut, Sunburst Chart. <br/>
+                    These charts helped us vizualize parts of a whole.
                       </p>
 
-                      <p class="description"> <strong>Feedback: </strong> The users and stakeholders loved the using a PoC version which had emulated data. We could hear them talk about the decisions they could make out of this.
+                      <p class="description"> <strong>Data Comparison: </strong> Line Chart, Area Chart. <br/>
+                     These charts heled us compare multiple data points over time.
                        </p>
+
+                       <p class="description"> <strong>Stacked Comparison: </strong> Funnel Chart. <br/>
+                      This chart helped us in identifying potential problem areas in an organization's marketing processes.
+                        </p>
+
+
+
+
+
+
                     <span class=" "></span>
                   </div>
                 </div>
@@ -1176,7 +1190,87 @@
 
 
             <div class="col-12">
-            <h2 class="title title--h5 js-lines">4. Campaign Creation Canvas</h2>
+            <h2 class="title title--h5 js-lines">4. Calendar View Improvements</h2>
+
+            </div>
+
+           <div class="col-12 col-lg-8 js-scroll-show">
+
+             <div class="row justify-content-center">
+               <div class="col-12" style="padding:0; height: 460px;">
+
+
+                 <iframe frameborder="0" class="juxtapose" width="100%" height="1670" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=d2c33ad4-542e-11ea-b9b8-0edaf8f81e27"></iframe>
+                 <p><i>Please drag the slider to compare images</i></p>
+
+               </div>
+             </div>
+
+
+          </div>
+
+
+
+          <div class="col-12 col-lg-4">
+           <p class="description">
+             <strong>Managing Information Overload</strong> <br/>
+
+             Imagine having to manage more than a 100 meetings on your daily calendar! </p>
+
+             Filed iterations:
+             <ul>
+               <li>
+                 Having only a calendar view.
+               </li>
+               <li>
+                 Having only a list view with dates as filters.
+               </li>
+             </ul>
+
+
+
+           <!-- <p class="description">
+             <strong>Problem: </strong> finding and looking at details of a campaign from hundreds of campaigns which are in different stages such as deployed, delived, bounced, opened etc and can sometimes run over a few days. Thus calendar view gets crowded, cluttered, and thereby becomes ineffective.
+
+           </p> -->
+
+           <p class="description">
+
+
+             <b>Solution:</b> finally, we decided to create a calendar view as alongwith a list view so that users can look at the calendar and yet see the campaigns running in the time selected.
+
+           </p>
+
+          </div>
+
+            <br />
+          </div>
+        <!-- Design End -->
+
+          <!-- Design Start -->
+          <div id="subs" class="row justify-content-center content-caption">
+
+
+
+
+
+            <div class="col-12">
+            <h2 class="title title--h5 js-lines">5. Campaign Creation Canvas</h2>
+
+            </div>
+
+            <div class="col-12 col-lg-4">
+             <p class="description">
+               <strong>Forms → Canvas</strong> <br/>
+               <ol>
+              	<li><b>Nodes:</b> Understood the atomicity of the form and breakdown the form into free individual units called Nodes.&nbsp;</li>
+              	<li><b>Defining Properties:</b> Designed properties of the nodes based on what associated values can be captured and configured.&nbsp;</li>
+              	<li><b>Canvas</b> integrated all the nodes on the canvas by identifying the dependencies and how each is related to another in a specific flow. </li>
+              </ol>
+             </p>
+
+             <p class="description"><strong>Canvas Nodes</strong> <br/> Leveraging the Sketch's "Symbol" and "Library" functionality to speed up the workflow and maintain consistency. As this was a new concept compared to the current system we decided it would be best to ideate with mid-fidelity wireframes in order to gather better feedback.</p>
+
 
             </div>
 
@@ -1200,20 +1294,7 @@
 
 
 
-          <div class="col-12 col-lg-4">
-           <p class="description">
-             <strong>Forms → Canvas</strong> <br/>
-             <ol>
-            	<li><b>Nodes:</b> Understood the atomicity of the form and breakdown the form into free individual units called Nodes.&nbsp;</li>
-            	<li><b>Defining Properties:</b> Designed properties of the nodes based on what associated values can be captured and configured.&nbsp;</li>
-            	<li><b>Canvas</b> integrated all the nodes on the canvas by identifying the dependencies and how each is related to another in a specific flow. </li>
-            </ol>
-           </p>
 
-           <p class="description"><strong>Canvas Nodes</strong> <br/> Leveraging the Sketch's "Symbol" and "Library" functionality to speed up the workflow and maintain consistency. As this was a new concept compared to the current system we decided it would be best to ideate with mid-fidelity wireframes in order to gather better feedback.</p>
-
-
-          </div>
 
             <br />
           </div>
@@ -1244,7 +1325,7 @@
                 <!-- <iframe src="https://player.vimeo.com/video/387388926" width="1280" height="720" style="background:none; " frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
 
                 <iframe frameborder="0" class="juxtapose" width="100%" height="1670" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=e6999cf2-5379-11ea-b9b8-0edaf8f81e27"></iframe>
-                <p></p>
+                <p><i>Please drag the slider to compare images</i></p>
 
               </div>
             </div>
