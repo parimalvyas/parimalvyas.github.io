@@ -430,6 +430,58 @@ button:focus {
   }
 }
 
+/*Test */
+
+.btn-link1 {
+  color: #696969;
+  display: inline-block;
+  font-weight: 400;
+  position: relative;
+  text-decoration: none;
+}
+.btn-link1:hover {
+  text-decoration: none;
+  color: #303030;
+}
+.btn-link1:hover::before {
+  transform: scale3d(0.5, 1, 1);
+}
+.btn-link1:before {
+  content: '';
+  background-color: #555555;
+  /* height: 1px; */
+  position: absolute;
+  top: 50%;
+  right: -3.5rem;
+  width: 5rem;
+  transform: scale3d(1, 1, 1);
+  transform-origin: left;
+  transition: all .3s ease-in-out;
+}
+@media only screen and (max-width: 580px) {
+  .btn-link1 {
+    font-size: .875rem;
+  }
+  .btn-link1:before {
+    right: -3rem;
+    width: 2rem;
+  }
+}
+.btn-link1--rearward:before {
+  left: -3.5rem;
+  top: 50%;
+  right: auto;
+  text-align: right;
+  transform-origin: right;
+}
+@media only screen and (max-width: 580px) {
+  .btn-link1--rearward:before {
+    left: -3rem;
+  }
+}
+
+/* Test End */
+
 .table thead th {
   border: 0;
   color: #848484;
@@ -1439,7 +1491,7 @@ iframe {
 ----------------------------------------------------------------- */
 .hero {
   height: 100vh;
-  overflow: hidden;
+  overflow: scroll;
   position: relative;
   padding-top: 400px;
 

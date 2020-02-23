@@ -388,4 +388,13 @@ iframe {
 /*# sourceMappingURL=style-light.css.map */
 
 
+/* Span No Break */
+
+.nobreak {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
 /* Scroll */
