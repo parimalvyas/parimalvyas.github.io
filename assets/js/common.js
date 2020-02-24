@@ -101,20 +101,20 @@ $(document).ready(function() {
 
 
     /*-----------------------------------------------------------------
-      Smooth scroll
+      Smooth scroll - Enable if needed. {disbaled by PVYAS on Feb-24-2020}
     -------------------------------------------------------------------*/
 
-	function inertiaScroll() {
-	    luxy.init({
-		    wrapper: '.js-scroll',
-		    targets : '.js-parallax',
-		    wrapperSpeed: 0.08,
-		    targetSpeed: 0.1,
-		    targetPercentage: 0.1
-	    });
-	};
-
-    inertiaScroll(); //Init
+	// function inertiaScroll() {
+	//     luxy.init({
+	// 	    wrapper: '.js-scroll',
+	// 	    targets : '.js-parallax',
+	// 	    wrapperSpeed: 0.08,
+	// 	    targetSpeed: 0.1,
+	// 	    targetPercentage: 0.1
+	//     });
+	// };
+  //
+  //   inertiaScroll(); //Init
 
 
     /*-----------------------------------------------------------------
