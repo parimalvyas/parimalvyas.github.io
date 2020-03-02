@@ -800,6 +800,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .block-quote::before {
   background-image: url(../images/icon-quote.svg);
+  opacity: 0.5;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
